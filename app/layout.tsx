@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Creating app with Next 14',
   description: 'First steps with Next 14',
+  keywords: ['Next 14', 'Learning'],
 };
 
 export default function RootLayout({
