@@ -1,4 +1,10 @@
 
+
+export const metadata = {
+ title: 'Nosotros',
+ description: 'Conoce nuestra historia.',
+};
+
 export default function AboutPage() {
   return (
     <>
