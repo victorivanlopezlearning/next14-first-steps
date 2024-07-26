@@ -1,4 +1,4 @@
-
+import { Navbar } from '@/components';
 
 export default function PublicLayout({
   children
@@ -6,8 +6,11 @@ export default function PublicLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="flex justify-center py-24">
-      {children}
-    </main>
+    <>
+      <Navbar />
+      <main className="flex justify-center py-16">
+        {children}
+      </main>
+    </>
   );
 }
